@@ -1,4 +1,5 @@
 // Type Conversion & Type Coercion
+
 let num = 6
 console.log(num, typeof num)
 
@@ -19,16 +20,39 @@ console.log(x, typeof x);
 let y = parseInt("123 isha");
 console.log(y);  
 
-//Arthimetic Operators +,-,/,%
-let num1 = 4
-let num2 = 2
-let result = num1 + num2
-console.log(result);
 
-//shorts
+
+
+//shorts 
 let value = 4
 value += 2 // value = value + 2
 value ++  // post increment
 console.log(value)
 ++value  // pre increment
 console.log(value)
+
+
+
+//Arthimetic Operators +,-,/,%
+let num1 = 4
+let num2 = 2
+let result = num1 + num2
+console.log(result);
+
+
+
+//Relational Operator <,>,==
+let data = 7 > 8
+console.log(data);
+
+data = 6 <= 6
+console.log(data);
+
+let m = "3" //string
+let n = 3
+let o = m === n // == : check equal value, ===: strict equality operator
+console.log(o)
+
+
+
+
