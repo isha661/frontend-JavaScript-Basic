@@ -16,3 +16,11 @@ console.log(num)
 
 let myname = "Isha Suchcha Rai"
 console.log(myname)
+
+// Constant : a variable whose value should not be reassigned later.
+let radius = 5
+const pi = 3.14
+let area
+area = pi * radius * radius
+console.log("the are are of circle is ",area)
+
