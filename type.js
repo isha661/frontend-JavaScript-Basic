@@ -55,4 +55,12 @@ console.log(o)
 
 
 
+//logical Operator
+let c = 7, d = 8, e = 9
+let ans = c > d && c > e  // and operator (.)
+console.log(ans)
+
+let ans = c > d + c > e  // OR operator (+)
+let ans = c > d + c > e  // NOT operator (!)
+
 
