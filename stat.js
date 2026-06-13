@@ -76,3 +76,13 @@ switch(day){
     console.log("Give available day !!")
 
 }
+
+
+
+// Templeate Literal in javascript
+// Template literals in JavaScript are a way to create strings using backticks ( ) instead of normal quotes
+let ek1 = 4;
+let ek2 = 5;
+let last = ek1 + ek2
+console.log(`The addition of ${ek1} and ${ek2} is ${last}`);
+
