@@ -33,3 +33,46 @@ if (num % 2 === 0) {
 let result = 10;
 
 console.log(result % 2 === 0 ? "Even number" : "Odd number");
+
+
+
+// Switch Statement in Java Script
+// Mon : 7am
+// Tue to thurs : 4 am
+// fri : 9am
+
+// switch(day) → checks the value of day
+//  case 1: → "Is day equal to 1?"
+
+// If yes → runs the code
+// If no → moves to next case
+// break stops the switch
+let day = "Friday"
+
+switch(day){
+  case "Monday":
+    console.log("wake up at 7 am");
+    break;
+
+  case "Tuesday":
+    console.log("wake up at 4 am");
+    break;
+
+  case "Wednesday":
+    console.log("wake up at 4 am");
+    break;
+   
+  case "Thursday":
+    console.log("4 am");
+    break;
+
+  case "Friday":  
+  case "Saturday":
+    console.log("wake up at 9 am");
+    break;
+    
+  default:
+    console.log("No day found");  
+    console.log("Give available day !!")
+
+}
