@@ -16,6 +16,8 @@ else{
 
 console.log("byeeeee");
 
+
+
 // find even or odd
 let num = 7;
 
@@ -24,3 +26,10 @@ if (num % 2 === 0) {
 } else {
   console.log("Odd number");
 }
+
+
+// Ternary operator 
+// condition ? value_if_true : value_if_false
+let result = 10;
+
+console.log(result % 2 === 0 ? "Even number" : "Odd number");
