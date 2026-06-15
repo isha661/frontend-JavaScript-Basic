@@ -1,47 +1,47 @@
-// // loop in js
-// // while , do while and for loop
+// loop in js
+// while , do while and for loop
 
-// //////////////////////// while loop //nitialization, condition, increment
-// let i = 0 ;
+//////////////////////// while loop //nitialization, condition, increment
+let i = 0 ;
  
-// while(i <= 5){
-//     console.log("My name is isha");
-//     i++;
+while(i <= 5){
+    console.log("My name is isha");
+    i++;
 
-// }
+}
 
-// //////////////////////do while 
-// // execute the code and then check the condition
-// let j = 1;
-// do{
-//     console.log("hi isha",j);
-//     j++;
-// }while(j<=5)
-
-
-// //////////////////////// for loop
-// for(let m = 1; m <= 5 ; m++)
-// {
-//  console.log("hi isha");
-// }
+//////////////////////do while 
+// execute the code and then check the condition
+let j = 1;
+do{
+    console.log("hi isha",j);
+    j++;
+}while(j<=5)
 
 
-// // exxercise 
+//////////////////////// for loop
+for(let m = 1; m <= 5 ; m++)
+{
+ console.log("hi isha");
+}
 
-// for( let num = 0; num <=10; num++)
-// {
+
+// exxercise 
+
+for( let num = 0; num <=10; num++)
+{
     
-//     console.log(num);
-// }
+    console.log(num);
+}
 
 
 
-// // even num from 1 - 20 using for and if
-// for (let even = 1; even <=20; even++){
-//     if( even % 2 === 0){
-//         console.log(even);
-//     }
-// }
+// even num from 1 - 20 using for and if
+for (let even = 1; even <=20; even++){
+    if( even % 2 === 0){
+        console.log(even);
+    }
+}
 
 
 
