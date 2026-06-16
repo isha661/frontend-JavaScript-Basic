@@ -76,3 +76,10 @@ let greet = (user) => {
     return 1;
 }
 console.log(greet('nisha'));
+
+
+// example of arrow function:
+let minus = (min1 , min2) =>  min1 - min2; // this is arrow fun
+
+let res = minus(6,4)
+console.log(res);
