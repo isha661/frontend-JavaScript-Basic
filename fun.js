@@ -19,3 +19,21 @@ function food(user) // creating // accpetimg  user
 let user = "isha all time fav is ";
 let type = food(user ); // calling  //passing user 
 console.log(type); // printing 
+
+
+
+
+
+
+// function expression in javascript
+
+let add = function(num1 ,num2)//assigning function in varaibale (add)
+{
+  return num1 + num2;
+} 
+// let sum = add
+// let result = sum(5,6)
+
+let result = add(5, 6)
+
+console.log(result);
