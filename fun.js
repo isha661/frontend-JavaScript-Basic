@@ -83,3 +83,6 @@ let minus = (min1 , min2) =>  min1 - min2; // this is arrow fun
 
 let res = minus(6,4)
 console.log(res);
+
+
+
