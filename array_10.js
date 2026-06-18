@@ -6,7 +6,7 @@ console.log(values);
 console.log('the length of an array is ',values.length);
 
 
-
+// function of array
 //push() : if i want to assign value 
 let arrayNum = [];
 arrayNum.push(5,10); // this Adds item at the end.
@@ -37,3 +37,10 @@ console.log(arrayNum.includes(10));
 
 // indexOf(): return position 
 console.log(arrayNum.indexOf(5));
+
+
+
+// Array with Different Data Types
+let data = ["isha", 20, true, null];
+console.log(data);
+
