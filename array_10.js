@@ -86,3 +86,21 @@ for(let index in fruits)
 {
     console.log(index);
 }
+
+
+
+/////////////////////////////////////////////////////////////////////
+
+//destructuring of array 
+// taking values from an array and putting them into variables easily.
+
+let country = ["nepal", "usa", "iceland"];
+let asian = country[0];
+console.log(asian);
+
+
+
+//position in array 
+let numbers = [1,2,3,4,5];
+let [a,b,c,,e] = numbers;
+console.log(b);
