@@ -108,5 +108,14 @@ console.log(b);
 
 // skip value in array
 let color = ["red", "blue", "yellow","cyan"];
-let [a,b,,d,] = color;
-console.log(a);
+let [f,g,,i,] = color;
+console.log(f);
+
+
+
+//swapping values in array
+let n = 88;
+let m = 77;
+[n,m] = [m,n];
+console.log(n);
+console.log(m);
