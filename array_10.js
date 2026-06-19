@@ -119,3 +119,16 @@ let m = 77;
 [n,m] = [m,n];
 console.log(n);
 console.log(m);
+
+
+
+// function in array 
+
+function show([name, age]) // show: function name
+{
+    console.log(name);
+    console.log(age);
+}
+
+
+show(["isha",20]);
