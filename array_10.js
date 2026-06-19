@@ -102,5 +102,11 @@ console.log(asian);
 
 //position in array 
 let numbers = [1,2,3,4,5];
-let [a,b,c,,e] = numbers;
+let [a,b,c,d,e] = numbers;
 console.log(b);
+
+
+// skip value in array
+let color = ["red", "blue", "yellow","cyan"];
+let [a,b,,d,] = color;
+console.log(a);
