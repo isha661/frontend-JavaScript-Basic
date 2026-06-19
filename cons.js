@@ -35,4 +35,4 @@ let dev1 = new Devloper ('isha', 20); //This is calling the constructor.
 let dev2 = new Devloper ('yashi', 24);
 
 console.log(dev2);
-dev1.work(()); // calling work fun
+dev1.work(); // calling work fun

@@ -7,9 +7,9 @@ console.log('the length of an array is ',values.length);
 
 
 // function of array
-//push() : if i want to assign value 
+//push() : this Adds item at the end
 let arrayNum = [];
-arrayNum.push(5,10); // this Adds item at the end.
+arrayNum.push(5,10,12); 
 console.log(arrayNum);
 
 
@@ -44,3 +44,45 @@ console.log(arrayNum.indexOf(5));
 let data = ["isha", 20, true, null];
 console.log(data);
 
+
+
+// splice
+
+let stress = [1,2,3,4,5,6];
+console.log(stress.splice(2,2)); // the number that is removed 
+console.log(stress)
+
+
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+
+
+
+//loops in array
+
+let nums = [];
+
+nums[0] = 8;
+nums[99] = 9;
+
+console.log(nums.length);
+
+
+//for of loop: gives you the value
+for( let n of nums){
+    console.log(n);
+}
+
+
+//for in loop: gives you the index/key
+
+let fruits = ["apple", "banana", "orange"];
+
+for(let index in fruits)
+{
+    console.log(index);
+}
