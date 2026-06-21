@@ -140,7 +140,23 @@
 //forEach() is a method that goes through every item in an array one by one and does something with each item.
 
 let nums = [20,45,22,49, 89];
-nums.forEach((n) => {
+nums.forEach(n => {
     console.log(n);
 })
 
+
+
+// map: map() goes through each item in an array, modifies it, and returns a new array
+
+
+let number = [20,30,40,50];
+let value = number.map( n =>
+{
+    return n * 2;
+}
+);
+console.log(value);
+
+
+
+// filter: checks each item and keeps only the items that pass the condition.
