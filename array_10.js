@@ -160,3 +160,8 @@ console.log(value);
 
 
 // filter: checks each item and keeps only the items that pass the condition.
+let ran = [1,2,46,45,55,60];
+let evenNum = ran.filter( n => {
+    return n % 2 === 0;
+});
+console.log(evenNum);
