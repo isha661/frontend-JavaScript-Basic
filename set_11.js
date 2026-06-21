@@ -23,3 +23,19 @@ fruits.forEach( n => {
 
 let falful = new Set(["apple", "banana", "pineapple", "graps"]);
 console.log(falful.has("apple"));
+
+
+
+
+// Map and set 
+
+let map = new Map();
+map.set("isha", "python");
+map.set("ismini", "backend");
+map.set("bd","frontend");
+
+
+for(let [n,m] of map){
+    console.log(n,":", m);
+}
+
