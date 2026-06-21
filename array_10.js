@@ -161,7 +161,25 @@ console.log(value);
 
 // filter: checks each item and keeps only the items that pass the condition.
 let ran = [1,2,46,45,55,60];
-let evenNum = ran.filter( n => {
-    return n % 2 === 0;
+// let evenNum = ran.filter( n => {
+//     return n % 2 === 0;
+// });
+// console.log(evenNum);
+
+
+
+let evenNum = ran.filter( n =>  n % 2 === 0)
+  .forEach( n =>  {
+
+    console.log(n);
 });
-console.log(evenNum);
+
+
+
+// reduce(): reduce() takes multiple values and reduces them to one value.
+let use = [1,2,3,4];
+let newValue = use.reduce((sum, n) => {
+    return sum + n ;
+});
+console.log("the one value :")
+console.log(newValue)
