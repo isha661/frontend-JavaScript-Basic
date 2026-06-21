@@ -11,4 +11,15 @@ let fruits = new Set();
 fruits.add("banana");
 fruits.add("apple");
 
-console.log(fruits);
+fruits.forEach( n => {
+  console.log(n);
+})
+
+
+
+
+
+// Checking if a value exists:  (has())
+
+let falful = new Set(["apple", "banana", "pineapple", "graps"]);
+console.log(falful.has("apple"));
