@@ -29,13 +29,36 @@ console.log(falful.has("apple"));
 
 // Map and set 
 
-let map = new Map();
-map.set("isha", "python");
-map.set("ismini", "backend");
-map.set("bd","frontend");
+let student = new Map();
+student.set("isha", "python"); // adding value in map
+student.set("ismini", "backend");
+student.set("bd","frontend");
 
 
-for(let [n,m] of map){
-    console.log(n,":", m);
+
+student.forEach((n, m) => {
+       console.log(n , ":", m);
+});
+
+// for(let [n,m] of student){
+//     console.log(n,":", m);
+// }
+
+
+
+
+
+// recursion function :function that calls itself to solve a problem.
+let val = 1;
+function show(){
+  console.log("hello isha", val);
+  val ++;
+
+  if(val <= 9512)
+    show();
 }
+
+show(); 
+
+
 
